@@ -3,11 +3,12 @@ title: "Regular Expressions in R"
 author: "Victor Ordu"
 format: 
   revealjs:
+    embed-resources: true
     theme: sky
     highlight-style: monokai 
     slide-number: true
     incremental: true
-    chalkboard: true
+    chalkboard: false
     center: true
 execute:
   echo: true
