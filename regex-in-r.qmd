@@ -235,7 +235,7 @@ This type of regex examines the neighbouring characters of a regex to decide on 
 
 ## Regular Expressions in R
 - R is the leading tool for **interactive** data analysis and data science.
-- Regex also is most useful when used interactively.
+- Regex is also most useful when used interactively.
 - Regex + R is a powerful combination for data cleaning and tranformation.
 - Regex can be complicated and tedious. R's scripting capabilities makes data cleaning with regex reproducible and auditable.
 
@@ -245,7 +245,7 @@ This type of regex examines the neighbouring characters of a regex to decide on 
 
 - substitution functions: `sub()` and `gsub()`
 
-- indexing functions: `regexpr()` and `regexec()`
+- location functions: `regexpr()` and `regexec()`
 
 ## Detection - `grep`, `grepl`
 
@@ -311,7 +311,7 @@ sub("(^P.+es)(\\s+)(weasel)", "\\1 the \\3!", str)
 
 
 
-## Splicing - `regexpr()`, `regexec()`
+## Location - `regexpr()`, `regexec()`
 - Unlike the `grep` and `sub` like functions, these give the actual positions within a string where the matches are made.
 - This can be useful when you want to create substrings based on a pattern.
 
@@ -426,4 +426,4 @@ str_detect(app, regex("ap", ignore_case = TRUE))
 _Ask me anything!_
 
 ## Thank You!
-- Slides and code: https://github.com/BroVic/ilorin-user-group-talk
+- Slides and code: <https://github.com/BroVic/ilorin-user-group-talk>
